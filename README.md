@@ -67,6 +67,7 @@ These measures transform raw data into **actionable business insights**.
 - **182K+ Hosts**
 - **144 Property Types**
 - **5.3M+ Reviews**
+- **Added BookMarks** : So that in less space we can discribe more information.
 
 ---
 
@@ -112,11 +113,42 @@ These measures transform raw data into **actionable business insights**.
 ## 🖼️ Dashboard Preview
 
 ### 📌 Overview Dashboard
-![Overview Dashboard](images/overview.png)
+![Overview Dashboard](Overview%20of%20AirBnB.png)
 
 ### 📌 Ratings & Market Analysis Dashboard
-![Ratings Dashboard](images/ratings.png)
+![Ratings Dashboard](Ratings.png)
+
+## 📁 Project Structure
+📦 Repo
+ ┣ gitattributes
+ ┣ AirBNB Dashboard project.pbix
+ ┣ Overview of AirBnB.png
+ ┣ Ratings.png
+ ┗ README.md
+
+ 
+---
+
+## ⚡ How to Use
+1. Download the `.pbix` file  
+2. Open using **Power BI Desktop**  
+3. Explore dashboards using filters & visuals  
 
 ---
 
-## 📁 Project Structure
+## 📌 Future Improvements
+- Add more cities for global coverage  
+- Optimize performance for large datasets  
+- Deploy dashboard to Power BI Service  
+- Add real-time data integration  
+
+---
+
+## 🙌 Acknowledgements
+- Dataset: **Maven Analytics**
+- Tool: Power BI  
+
+---
+
+## ⭐ If you like this project
+Give it a ⭐ on GitHub and share your feedback!
