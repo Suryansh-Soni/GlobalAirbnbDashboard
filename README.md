@@ -6,32 +6,56 @@
 ---
 
 ## 📖 Description
-This project is a **Power BI dashboard** that analyzes Airbnb listings across major global cities. It provides insights into **market share, pricing trends, growth patterns, and customer ratings**.
+This project is a **Power BI dashboard** built to analyze Airbnb performance across major global cities using large-scale datasets.
 
-The dashboard helps uncover:
-- City-wise dominance
-- Pricing variations by room type
-- Growth lifecycle trends
-- Customer satisfaction metrics
+It provides deep insights into:
+- Market share distribution
+- Pricing trends across room types
+- Growth lifecycle of Airbnb
+- Customer ratings and satisfaction
+
+The dashboard leverages **custom DAX measures and calculated fields** to extract meaningful insights from raw data.
 
 ---
 
 ## 🛠️ Tech Stack
 - 📊 Power BI
-- 🧹 Power Query (Data Cleaning)
-- 🧠 DAX (Data Analysis Expressions)
-- 📁 Dataset: CSV
+- 🧹 Power Query (ETL & Data Cleaning)
+- 🧠 DAX (Custom Measures & Calculations)
+- 📁 Data Format: CSV
 
 ---
 
 ## 📂 Data Source
-- Dataset sourced from **Kaggle**
-- Includes:
-  - Listings data
-  - Host information
-  - Pricing details
-  - Reviews and ratings
-  - City-level distribution
+
+- Dataset provided by **Maven Analytics**
+- Large-scale datasets used:
+
+### 📁 Files Used
+- `listings.csv` → Property details, pricing, host info, location
+- `reviews.csv` → Review data, reviewer info, timestamps
+
+### ⚠️ Dataset Note
+These datasets are **very large in size**, requiring:
+- Data cleaning & transformation
+- Efficient data modeling
+- Optimized DAX measures for performance
+
+---
+
+## 🧠 Data Modeling & DAX
+
+To extract valuable insights, several **custom measures** were created in Power BI, such as:
+
+- 📌 Total Listings  
+- 📌 Average Price by Room Type  
+- 📌 Average Ratings  
+- 📌 Cumulative Listings  
+- 📌 Cumulative Percentage (Pareto Analysis)  
+- 📌 City Ranking  
+- 📌 Superhost vs Non-Superhost Distribution  
+
+These measures transform raw data into **actionable business insights**.
 
 ---
 
@@ -55,37 +79,33 @@ The dashboard helps uncover:
   - Reinvention
   - COVID-19 Impact
 - Peak growth observed around **2015**
-- Decline due to regulations and pandemic
+- Decline due to regulations and pandemic impact
 
 ---
 
 ### 🏙️ Market Share by City
-- Highlights top contributing cities
-- Shows cumulative percentage growth
-- Demonstrates **Pareto-like distribution**
+- Identifies top-performing cities
+- Uses **cumulative % analysis**
+- Demonstrates **Pareto (80/20) principle**
 
 ---
 
 ### 💰 Pricing Insights
-- Average price by room type:
-  - Hotel Room: **$800**
-  - Entire Place: **$673**
-  - Shared Room: **$580**
-  - Private Room: **$462**
+- Hotel Room: **$800**
+- Entire Place: **$673**
+- Shared Room: **$580**
+- Private Room: **$462**
 
 ---
 
 ### ⭐ Ratings Analysis
-- Compares cities across:
+- Compared across:
   - Accuracy
   - Cleanliness
   - Communication
   - Location
   - Value for Money
-- Identifies top-rated cities like:
-  - Mexico City
-  - Cape Town
-  - Rio de Janeiro
+- Highlights top-performing cities
 
 ---
 
@@ -100,35 +120,3 @@ The dashboard helps uncover:
 ---
 
 ## 📁 Project Structure
-Global-Airbnb-Dashboard
-┣  images
-┃ ┣ overview.png
-┃ ┗ ratings.png
-┣ Airbnb Dashboard.pbix
-┗ README.md
-
-
----
-
-## ⚡ How to Use
-1. Download the `.pbix` file
-2. Open in **Power BI Desktop**
-3. Interact with filters and visuals
-
----
-
-## 📌 Future Improvements
-- Add more cities for broader analysis
-- Integrate real-time data
-- Deploy dashboard on Power BI Service
-
----
-
-## 🙌 Acknowledgements
-- Dataset: Kaggle
-- Visualization Tool: Power BI
-
----
-
-## ⭐ If you like this project
-Give it a ⭐ on GitHub!
